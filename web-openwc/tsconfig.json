@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmitOnError": true,
+    "allowJs": true,
+    "strictPropertyInitialization": false,
+    "strictNullChecks": false,
+    "sourceMap": true,
+    "lib": ["es2020", "es2017", "dom", "DOM.ITERABLE"],
+    "strict": true,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "outDir": "ts-out",
+    "rootDir": "./",
+    "noImplicitAny": false,
+    "skipLibCheck": true,
+    "plugins": [
+      { "name": "typescript-lit-html-plugin" },
+      { "name": "ts-lit-plugin" }
+    ]
+  },
+  "include": ["**/*.ts", "src/openwc-neo4jgraphql.ts"]
+}
